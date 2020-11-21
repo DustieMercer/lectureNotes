@@ -1,0 +1,149 @@
+
+h1 {color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 18px; text-align: center;}
+h3 {color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+
+
+body {
+  background-image: url('https://wallpapercave.com/wp/xX2GRj6.gif');
+  background-size: cover;
+  z-index: 1;
+}
+
+#home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-item {
+    text-align: center;
+
+}
+
+nav {
+    display: table;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+
+
+}
+
+li {
+    display: table-cell;
+    text-align: center;
+    box-sizing: border-box;
+    border: #fff 1px solid;
+    width: 100vw;
+    text-decoration: none;
+    color: black;
+}
+a:link, a:visited {
+    color:#fff;
+    text-decoration: none;
+  }
+
+#social {
+    display: flex;
+    top: 2%;
+    left: 1em;
+    gap: 10px;
+}
+
+.social-item {
+    flex-basis: auto;
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+
+}
+
+#action {
+    float: right;
+    right: 1em;
+}
+
+#login {
+    display: flex;
+}
+
+.action-button {
+    flex-basis: auto;
+    border: none;
+    color: none;
+    }
+
+    button {
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    
+      }
+
+#announcement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 2px darkgray;
+    background-color: grey;
+    width: 100vw;
+    height: 45px;
+}
+.announcement-text {
+    text-align: right;
+    margin-top: 0;
+}
+.announcement-item{
+    text-align: left;
+    margin-top: 0;
+    padding: 0px 00px 0px 0px;
+;
+}
+
+#mando{
+   display: flex;
+}
+.mandoImg {
+    position: relative;
+    left: 8%;
+    z-index: 2;
+}
+.mandoButton{
+    display: grid;
+    grid-template-columns:1fr 5fr;
+    z-index: 3;
+    margin-top: -200px;
+    margin-left: 130px;
+
+}
+
+button2 {
+    background-color: rgb(1, 108, 249);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3rem;
+    border: none;
+    border-radius: 6px;
+    justify-self: right;
+}
+
+button3 {
+    background-color: rgb(1, 108, 249);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #565656;
+}
